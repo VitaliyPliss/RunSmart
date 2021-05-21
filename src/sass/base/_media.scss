@@ -1,0 +1,119 @@
+@media (max-width: 991px) {
+    .header {
+        &__phone {
+            font-size: 16px;
+        }
+    }
+    .promo {
+        padding-left: calc(20px + (50 - 20) * ((100vw - 320px)/(991 - 320)));
+        padding-right: calc(20px + (50 - 20) * ((100vw - 320px)/(991 - 320)));
+        padding-bottom: calc(40px + (50 - 40) * ((100vw - 320px)/(991 - 320)));
+    }
+    .carousel {
+        &__inner {
+            max-width: 750px;
+        }
+    }
+    .features {
+        padding-left: calc(20px + (50 - 20) * ((100vw - 320px)/(991 - 320)));
+        padding-right: calc(20px + (50 - 20) * ((100vw - 320px)/(991 - 320)));
+        &__column {
+            padding-left: calc(5px + (10 - 5) * ((100vw - 320px)/(991 - 320)));
+            padding-right: calc(5px + (10 - 5) * ((100vw - 320px)/(991 - 320)));
+        }
+    }
+    .consultation {
+        padding-left: calc(20px + (50 - 20) * ((100vw - 320px)/(991 - 320)));
+        padding-right: calc(20px + (50 - 20) * ((100vw - 320px)/(991 - 320)));
+        padding-bottom: calc(40px + (50 - 40) * ((100vw - 320px)/(991 - 320)));
+        padding-top: calc(40px + (50 - 40) * ((100vw - 320px)/(991 - 320)));
+    }
+    .carousel {
+        padding-left: calc(20px + (50 - 20) * ((100vw - 320px)/(991 - 320)));
+        padding-right: calc(20px + (50 - 20) * ((100vw - 320px)/(991 - 320)));
+    }
+    .catalog {
+        padding-left: calc(20px + (50 - 20) * ((100vw - 320px)/(991 - 320)));
+        padding-right: calc(20px + (50 - 20) * ((100vw - 320px)/(991 - 320)));
+    }
+    .reviews {
+        padding-left: calc(20px + (50 - 20) * ((100vw - 320px)/(991 - 320)));
+        padding-right: calc(20px + (50 - 20) * ((100vw - 320px)/(991 - 320)));
+    }
+
+}
+
+@media (max-width: 767px) {
+    .header {
+            &__official {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        &__header {
+            font-size: calc(28px + (42 - 28) * ((100vw - 320px)/(575 - 320)));
+            text-align: left;
+        }
+
+        &__subheader {
+            font-size: calc(16px + (24 - 16) * ((100vw - 320px)/(575 - 320)));
+            text-align: left;
+        }
+    }
+    .header{
+        &__logo {
+            max-width: 250px;
+            padding-right: 20px;
+        }
+    }
+    .button_main {
+        width: 280px;
+    }
+    .features {
+        &__header {
+            font-size: calc(24px + (36 - 24) * ((100vw - 320px)/(575 - 320)));
+        }
+        &__flex {
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        &__column {
+            margin-top: 30px;
+            width: 100%;
+        }
+    }
+    .consultation {
+        &__header {
+            font-size: calc(24px + (36 - 24) * ((100vw - 320px)/(575 - 320)));
+        }
+    }
+    .catalog {
+        &__tabs {
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        &__tab {
+            margin-top: 10px;
+        }
+    }
+    .reviews-flex {
+        text-align: center;
+        
+        &__item {
+            flex-direction: column;
+            margin: 0 auto;
+        }
+        &__block {
+            margin-left: 0;
+            margin-top: 40px;
+        }
+    }
+    .footer {
+        &__info {
+            padding: 25px 5px 30px 5px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+.reviews {
+    padding-bottom: 50px;
+    min-height: 970px;
+    &__title {
+        font-weight: 700;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    &-flex {
+        &__item {
+            display: flex;
+            padding-top: 60px;
+        }
+        &__block {
+            margin-left: 60px;
+        }
+        &__name {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 18px;
+        span {
+            font-weight: 500;
+            font-size: 14px;
+            color: #646464;}
+        }
+        &__text {
+            font-weight: 300;
+            font-size: 18px;
+            margin-top: 10px;
+            line-height: 22px; 
+        }
+
+    }
+}

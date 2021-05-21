@@ -1,0 +1,48 @@
+.features {
+    min-height: 473px;
+    background-color: #f6f6f6;
+    padding-top: 70px;
+    padding-bottom: 83px;
+    &__header {
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    &__flex {
+        margin-top: 60px;
+        display: flex;
+        max-width: 952px;
+        justify-content: space-between;
+    }
+    &__column {
+        text-align: center;
+        width: 280px;
+    }
+    &__subheader {
+        margin-top: 35px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+    &__text {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        span {
+            text-decoration-line: underline;
+            color: #C70101;
+            
+        }
+    }
+    &__icon {
+        &_animated {
+            animation-name: heartbeat;
+            animation-duration: 1.3s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+            
+        }
+    }
+}
